@@ -1,15 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ObstacleManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="D:\Users\xinjiema\Documents\Course\cist568\TakeOutTheTrash\Assets\Scripts\CameraMovement.cs">
     <Files>
+      <File FileName="Assets\Scripts\ObstacleManager.cs" Line="19" Column="46" />
       <File FileName="Assets\Scripts\GameManager.cs" Line="14" Column="21" />
       <File FileName="Assets\Scripts\Camera.cs" Line="1" Column="1" />
       <File FileName="D:\Users\xinjiema\Documents\Course\cist568\TakeOutTheTrash\Assets\Scripts\CameraMovement.cs" Line="22" Column="1" />
       <File FileName="D:\Users\xinjiema\Documents\Course\cist568\TakeOutTheTrash\Assets\Scripts\GameManager.cs" Line="1" Column="1" />
-      <File FileName="D:\Users\xinjiema\Documents\Course\cist568\TakeOutTheTrash\Assets\Scripts\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Obstacle.cs" Line="8" Column="3" />
-      <File FileName="Assets\Scripts\ObstacleManager.cs" Line="17" Column="98" />
+      <File FileName="D:\Users\xinjiema\Documents\Course\cist568\TakeOutTheTrash\Assets\Scripts\Player.cs" Line="93" Column="38" />
+      <File FileName="Assets\Scripts\Player.cs" Line="20" Column="63" />
+      <File FileName="Assets\Scripts\Obstacle.cs" Line="6" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

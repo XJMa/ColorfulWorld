@@ -1014,6 +1014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 3
+  myMat: {fileID: 2100000, guid: 81534ad881faa704f96b63a6c6a7c8e5, type: 2}
 --- !u!64 &275194813
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1039,7 +1040,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 81534ad881faa704f96b63a6c6a7c8e5, type: 2}
+  - {fileID: 2100000, guid: 0fd9b31a088720245a982102182d396a, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2689,6 +2690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 2
+  myMat: {fileID: 2100000, guid: 01726694ab3b56a458b9f8b00dff50fb, type: 2}
 --- !u!64 &1001207079
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2714,7 +2716,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 01726694ab3b56a458b9f8b00dff50fb, type: 2}
+  - {fileID: 2100000, guid: 0fd9b31a088720245a982102182d396a, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -6093,7 +6095,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 0fd9b31a088720245a982102182d396a, type: 2}
+  - {fileID: 2100000, guid: 4e46b04117a52834d8745998bb31486e, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -6185,7 +6187,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: .939267397, g: .941176474, b: .906574368, a: 1}
   m_Intensity: .769999981
   m_Range: 10
   m_SpotAngle: 30
@@ -6444,7 +6446,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f2b9730dc9339e14a9e9829471c65220, type: 2}
+  - {fileID: 2100000, guid: 0fd9b31a088720245a982102182d396a, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -6483,6 +6485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 1
+  myMat: {fileID: 2100000, guid: f2b9730dc9339e14a9e9829471c65220, type: 2}
 --- !u!1 &2097201070
 GameObject:
   m_ObjectHideFlags: 0
