@@ -1,15 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainMenu.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
     <Files>
-      <File FileName="Assets\Scripts\Lens.cs" Line="28" Column="79" />
-      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RedLensGui.cs" Line="9" Column="3" />
-      <File FileName="Assets\Scripts\ObstacleManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Obstacle.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Camera.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="43" Column="3" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="10" Column="50" />
+      <File FileName="Assets\Scripts\Lens.cs" Line="25" Column="6" />
+      <File FileName="Assets\Scripts\Player.cs" Line="41" Column="38" />
+      <File FileName="Assets\Scripts\RedLensGui.cs" Line="20" Column="4" />
+      <File FileName="Assets\Scripts\ObstacleManager.cs" Line="19" Column="1" />
+      <File FileName="Assets\Scripts\Obstacle.cs" Line="25" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Win.cs" Line="1" Column="1" />
+      <File FileName="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" Line="1" Column="1" />
+      <File FileName="Assets\UnityChan\Scripts\IdleChanger.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BlueLensGui.cs" Line="21" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

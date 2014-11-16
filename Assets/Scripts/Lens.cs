@@ -3,9 +3,10 @@ using System.Collections;
 
 public class Lens : MonoBehaviour {
 
- 
+	//public LensColor lens;
 	// Use this for initialization
 	void Start () {
+
 	
 	}
 	
@@ -20,23 +21,32 @@ public class Lens : MonoBehaviour {
 		Collider collider = collision.collider; 
 		
 		if (collider.CompareTag ("Player")) {
-			
-			Player p = collider.gameObject.GetComponent<Player> ();
+				
+			//Player p = collider.gameObject.GetComponent<Player> ();
+			//p.animation.Play("REFLESH00");
 
 			Destroy (gameObject);
 
-			GUITexture l = GameObject.FindWithTag("GuiLens").GetComponent<GUITexture>() as GUITexture;
-			Debug.Log (l);
-			RedLensGui rl = l.GetComponent<RedLensGui> ();
-			Debug.Log (rl);
-			rl.showImage(); 
 
+			if(gameObject.tag == "redLens"){
+				GUITexture l = GameObject.FindWithTag("GuiRedLens").GetComponent<GUITexture>() as GUITexture;
+				RedLensGui rl = l.GetComponent<RedLensGui> ();
+				rl.showImage();
+				
+				GameObject gm = GameObject.Find("GameManager"); 
+				GameManager g = gm.GetComponent<GameManager>(); 
+				g.hasRedLens = true; 
+			}
 
-		} else {
-			//if we collided with someting else, print to console
-			//what the other thing was
-			
-			Debug.Log ("Collided with " + collider.tag); 
+			if(gameObject.tag == "blueLens"){
+				GUITexture l = GameObject.FindWithTag("GuiBlueLens").GetComponent<GUITexture>() as GUITexture;
+				BlueLensGui rl = l.GetComponent<BlueLensGui> ();
+				rl.showImage();
+				
+				GameObject gm = GameObject.Find("GameManager"); 
+				GameManager g = gm.GetComponent<GameManager>(); 
+				g.hasBlueLens = true; 
+			}
 		}
 	}
 

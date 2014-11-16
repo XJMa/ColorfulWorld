@@ -1,24 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RedLensGui : MonoBehaviour {
+public class BlueLensGui : MonoBehaviour {
 
-	public Texture redLensImage;
-
+	// Use this for initialization
+	public Texture blueLensImage;
+	
 	// Use this for initialization
 	void Start () {
 		guiTexture.enabled = false;
-
-				
+			
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		GameObject gm = GameObject.Find("GameManager"); 
 		GameManager g = gm.GetComponent<GameManager>(); 
-		if(g.hasRedLens == true){
+		if(g.hasBlueLens == true){
 			showImage ();
-		}
+		}	
 		
 	}
 	
@@ -26,4 +26,3 @@ public class RedLensGui : MonoBehaviour {
 		guiTexture.enabled = true;
 	}
 }
-

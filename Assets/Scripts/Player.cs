@@ -6,6 +6,7 @@ public class Player : MonoBehaviour {
 	private bool isFaceRight;
 	private Vector3 jumpVelocity;
 	private Vector3 runVelocity1, runVelocity2;
+	bool win = false; 
 	// Use this for initialization
 	void Start () {
 		jumpVelocity = new Vector3(0, 5, 0);
@@ -33,10 +34,22 @@ public class Player : MonoBehaviour {
 			rigidbody.AddForce(runVelocity2, ForceMode.Impulse);
 			animation.Play("RUN00_F");
 		}
-		
+
 		if(rigidbody.velocity.z < 0.1 && rigidbody.velocity.z > -0.1 &&rigidbody.velocity.y == 0){
 			animation.CrossFade("WAIT02");	
 		}
+		if (Input.GetKeyDown(KeyCode.Return) && win){
+			Application.LoadLevel("Win");
+		}
+
+	}
+
+	void OnCollisionEnter(Collision collision){
+		Collider collider = collision.collider; 
 		
+		if (collider.tag == "Door") {
+			animation.Play ("WIN00");
+			win = true; 
+		}
 	}
 }
