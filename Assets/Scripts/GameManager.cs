@@ -19,7 +19,8 @@ public class GameManager : MonoBehaviour {
 		if (level == Level.level1){
 			hasRedLens = true; 
 			hasYellowLens = false; 
-			hasBlueLens = false; 
+			hasBlueLens = false;
+			lens = LensColor.red;
 		}
 	}
 	

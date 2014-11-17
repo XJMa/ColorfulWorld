@@ -45,7 +45,8 @@ public class Lens : MonoBehaviour {
 				
 				GameObject gm = GameObject.Find("GameManager"); 
 				GameManager g = gm.GetComponent<GameManager>(); 
-				g.hasBlueLens = true; 
+				g.hasBlueLens = true;
+				g.lens = LensColor.blue;
 			}
 		}
 	}

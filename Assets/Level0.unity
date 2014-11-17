@@ -421,6 +421,7 @@ Animation:
   - {fileID: 7400000, guid: f98ead48d3193eb43a7839c6847a5b13, type: 3}
   - {fileID: 7400000, guid: 0147e212f97e3d449a4b9e4f5d057180, type: 3}
   - {fileID: 7400000, guid: e2538d48c03da46a8b0c3b59d39a4cab, type: 3}
+  - {fileID: 7400000, guid: a3657ebe445392e44a81a7b112b9cf0c, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -1224,7 +1225,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11100000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_Animations.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1314,6 +1315,10 @@ Prefab:
       propertyPath: m_Animations.Array.data[6]
       value: 
       objectReference: {fileID: 7400000, guid: e2538d48c03da46a8b0c3b59d39a4cab, type: 3}
+    - target: {fileID: 11100000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Animations.Array.data[7]
+      value: 
+      objectReference: {fileID: 7400000, guid: a3657ebe445392e44a81a7b112b9cf0c, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
   m_RootGameObject: {fileID: 123446032}
@@ -3233,7 +3238,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 72ecdf78b1063104c8eedf5e2063ba11, type: 2}
+  - {fileID: 2100000, guid: d80ea7738c5289e4cb197d3126838da0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -5544,6 +5549,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1581772469}
   - 95: {fileID: 1581772470}
+  - 64: {fileID: 1581772471}
   m_Layer: 0
   m_Name: door
   m_TagString: Door
@@ -5580,6 +5586,19 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!64 &1581772471
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581772468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 0}
 --- !u!1 &1598859884
 GameObject:
   m_ObjectHideFlags: 0
