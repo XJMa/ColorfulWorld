@@ -2522,7 +2522,7 @@ GameObject:
   - 114: {fileID: 763985110}
   m_Layer: 0
   m_Name: blueCube
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3009,7 +3009,7 @@ GameObject:
   - 114: {fileID: 879842714}
   m_Layer: 0
   m_Name: yellowCube
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5929,7 +5929,7 @@ GameObject:
   - 23: {fileID: 1708754204}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6912,7 +6912,7 @@ GameObject:
   - 114: {fileID: 2036281190}
   m_Layer: 0
   m_Name: blueCube
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
