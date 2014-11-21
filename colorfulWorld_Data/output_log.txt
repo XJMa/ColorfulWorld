@@ -11,15 +11,15 @@ Platform assembly: C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_D
 Loading C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.036 seconds
+- Completed reload, in  0.073 seconds
 desktop: 1680x1050 60Hz; virtual: 3600x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.225800 ms
+UnloadTime: 0.193671 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 586.
-Total: 0.486408 ms (FindLiveObjects: 0.015618 ms CreateObjectMapping: 0.007139 ms MarkObjects: 0.092373 ms  DeleteObjects: 0.002677 ms)
+Total: 0.468559 ms (FindLiveObjects: 0.016511 ms CreateObjectMapping: 0.007139 ms MarkObjects: 0.098620 ms  DeleteObjects: 0.002677 ms)
 
 RedLensGui (UnityEngine.GUITexture)
  
