@@ -1,31 +1,73 @@
 Initialize engine version: 4.5.4f1 (e036f44c54c9)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.4411]
-    Renderer: NVIDIA GeForce GT 750M   
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.4062]
+    Renderer: NVIDIA GeForce GTX 860M
     Vendor:   NVIDIA
-    VRAM:     1985 MB (via DXGI)
+    VRAM:     1972 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.036 seconds
-desktop: 1680x1050 60Hz; virtual: 3600x1080 at 0,0
+Platform assembly: C:\Users\Paula\Documents\PENN\CIS 568 - Game Practicum\ColorfulWorld\colorfulWorld_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Paula\Documents\PENN\CIS 568 - Game Practicum\ColorfulWorld\colorfulWorld_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Paula\Documents\PENN\CIS 568 - Game Practicum\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Paula\Documents\PENN\CIS 568 - Game Practicum\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
+desktop: 1440x900 60Hz; virtual: 1800x1125 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.225800 ms
+UnloadTime: 0.290803 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 586.
-Total: 0.486408 ms (FindLiveObjects: 0.015618 ms CreateObjectMapping: 0.007139 ms MarkObjects: 0.092373 ms  DeleteObjects: 0.002677 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 589.
+Total: 0.730857 ms (FindLiveObjects: 0.022665 ms CreateObjectMapping: 0.009408 ms MarkObjects: 0.123591 ms  DeleteObjects: 0.022665 ms)
 
-RedLensGui (UnityEngine.GUITexture)
+Red Pickup
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-RedLensGui (RedLensGui)
+door
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 1.903052 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 94.
+Total: 5.693763 ms (FindLiveObjects: 0.019244 ms CreateObjectMapping: 0.023520 ms MarkObjects: 0.239057 ms  DeleteObjects: 3.831337 ms)
+
+UnloadTime: 0.602989 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 652.
+Total: 2.136551 ms (FindLiveObjects: 0.078260 ms CreateObjectMapping: 0.045331 ms MarkObjects: 0.368636 ms  DeleteObjects: 0.010263 ms)
+
+Blue Pickup
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+door
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.731285 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 94.
+Total: 2.281525 ms (FindLiveObjects: 0.006842 ms CreateObjectMapping: 0.008980 ms MarkObjects: 0.122736 ms  DeleteObjects: 1.613532 ms)
+
+UnloadTime: 0.599140 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 95.
+Total: 1.807258 ms (FindLiveObjects: 0.017961 ms CreateObjectMapping: 0.037633 ms MarkObjects: 0.287810 ms  DeleteObjects: 0.007697 ms)
+
+UnloadTime: 0.237347 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 589.
+Total: 0.673980 ms (FindLiveObjects: 0.022665 ms CreateObjectMapping: 0.011118 ms MarkObjects: 0.135565 ms  DeleteObjects: 0.003421 ms)
+
+Red Pickup
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 

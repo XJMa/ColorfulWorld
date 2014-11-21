@@ -1895,7 +1895,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4a63375c07482fe4bab4d1693d97faf1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.65250492
+      value: -2.65062189
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4a63375c07482fe4bab4d1693d97faf1, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1928,6 +1928,10 @@ Prefab:
     - target: {fileID: 400000, guid: 4a63375c07482fe4bab4d1693d97faf1, type: 2}
       propertyPath: m_LocalPosition.z
       value: -4.31289721
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4a63375c07482fe4bab4d1693d97faf1, type: 2}
+      propertyPath: m_TagString
+      value: Door
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4a63375c07482fe4bab4d1693d97faf1, type: 2}
@@ -2409,7 +2413,7 @@ GameObject:
   - 65: {fileID: 687169857}
   m_Layer: 0
   m_Name: DOORS_Static_Court_Wooden_192x384
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3850,6 +3854,8 @@ Animation:
   - {fileID: 7400000, guid: f98ead48d3193eb43a7839c6847a5b13, type: 3}
   - {fileID: 7400000, guid: 0147e212f97e3d449a4b9e4f5d057180, type: 3}
   - {fileID: 7400000, guid: 842226a6a478847f9b6f5c746ae1cb95, type: 3}
+  - {fileID: 7400000, guid: a3657ebe445392e44a81a7b112b9cf0c, type: 3}
+  - {fileID: 7400000, guid: e2538d48c03da46a8b0c3b59d39a4cab, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -4140,7 +4146,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11100000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_Animations.Array.size
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400326, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4230,6 +4236,14 @@ Prefab:
       propertyPath: m_Animations.Array.data[6]
       value: 
       objectReference: {fileID: 7400000, guid: 842226a6a478847f9b6f5c746ae1cb95, type: 3}
+    - target: {fileID: 11100000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Animations.Array.data[7]
+      value: 
+      objectReference: {fileID: 7400000, guid: a3657ebe445392e44a81a7b112b9cf0c, type: 3}
+    - target: {fileID: 11100000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Animations.Array.data[8]
+      value: 
+      objectReference: {fileID: 7400000, guid: e2538d48c03da46a8b0c3b59d39a4cab, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
   m_RootGameObject: {fileID: 1050099301}
@@ -4706,7 +4720,7 @@ Transform:
   m_PrefabInternal: {fileID: 501986629}
   m_GameObject: {fileID: 1281551771}
   m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
-  m_LocalPosition: {x: .0535050035, y: -2.65250492, z: .142514169}
+  m_LocalPosition: {x: .0535050035, y: -2.65062189, z: .142514169}
   m_LocalScale: {x: .00499999989, y: .00499999989, z: .00499999989}
   m_Children:
   - {fileID: 687169856}

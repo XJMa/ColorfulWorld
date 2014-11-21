@@ -56,6 +56,7 @@ public class Player : MonoBehaviour {
 		Collider collider = collision.collider; 
 		
 		if (collider.tag == "Door") {
+			Debug.Log("door");
 			animation.Play ("WIN00");
 			win = true; 
 		}

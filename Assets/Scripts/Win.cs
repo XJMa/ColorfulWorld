@@ -5,6 +5,7 @@ public class Win : MonoBehaviour {
 
 	public Font font;
 	public GUIStyle style;
+	public Level level;
 	// Use this for initialization
 	void Start () {
 	
@@ -25,7 +26,10 @@ public class Win : MonoBehaviour {
 		
 		if (GUILayout.Button("Next Level", style))
 		{
-			Application.LoadLevel("Level1");
+			if (level == Level.level0)
+				Application.LoadLevel("Level1");
+			//if (level == Level.level1)
+				//Application.LoadLevel("Level2");
 		}
 		if (GUILayout.Button("Main Menu", style))
 		{
