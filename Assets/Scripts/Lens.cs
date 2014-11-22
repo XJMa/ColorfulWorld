@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Lens : MonoBehaviour {
@@ -48,6 +48,17 @@ public class Lens : MonoBehaviour {
 				GameManager g = gm.GetComponent<GameManager>(); 
 				g.hasBlueLens = true;
 				g.lens = LensColor.blue;
+			}
+
+			if(gameObject.tag == "yellowLens"){
+				GUITexture l = GameObject.FindWithTag("GuiYellowLens").GetComponent<GUITexture>() as GUITexture;
+				YellowLensGui rl = l.GetComponent<YellowLensGui> ();
+				rl.showImage();
+				
+				GameObject gm = GameObject.Find("GameManager"); 
+				GameManager g = gm.GetComponent<GameManager>(); 
+				g.hasYellowLens = true;
+				//g.lens = LensColor.yellow;
 			}
 		}
 	}

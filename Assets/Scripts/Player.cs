@@ -71,6 +71,11 @@ public class Player : MonoBehaviour {
 			Debug.Log("Blue Pickup");
 		}
 
+		if(collider.tag == "yellowLens") {
+			animation.Play("SLIDE00");
+			Debug.Log("Yellow Pickup");
+		}
+
 		if(collider.tag == "ground") {
 			jumped = false;
 		}

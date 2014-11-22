@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\RedLensGui.cs" />
      <Compile Include="Assets\Scripts\Win.cs" />
+     <Compile Include="Assets\Scripts\YellowLensGui.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
