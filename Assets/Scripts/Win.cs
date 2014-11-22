@@ -26,10 +26,8 @@ public class Win : MonoBehaviour {
 		
 		if (GUILayout.Button("Next Level", style))
 		{
-			if (level == Level.level0)
 				Application.LoadLevel("Level1");
-			//if (level == Level.level1)
-				//Application.LoadLevel("Level2");
+
 		}
 		if (GUILayout.Button("Main Menu", style))
 		{

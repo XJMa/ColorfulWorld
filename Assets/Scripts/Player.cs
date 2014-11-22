@@ -79,5 +79,17 @@ public class Player : MonoBehaviour {
 		if(collider.tag == "ground") {
 			jumped = false;
 		}
+		if (collider.tag == "spikes") {  
+			livesCounter ();
+		}
 	}
+
+	void livesCounter(){
+		if (PlayerPrefs.GetInt ("currentLives") > 0)
+			PlayerPrefs.SetInt ("currentLives", PlayerPrefs.GetInt("currentLives") - 1); 
+
+		else 
+			Application.LoadLevel("GameOver");
+
+		}
 }
