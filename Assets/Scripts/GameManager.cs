@@ -1,17 +1,27 @@
 using UnityEngine;
 using System.Collections;
 public enum LensColor { none, red, yellow, blue };
+public enum Level { level0,level1, level2, higherlevels };
 public class GameManager : MonoBehaviour {
 	public GameObject light;
 
 	public LensColor lens;
 	public bool hasRedLens, hasYellowLens, hasBlueLens;
+	public Level level;  //Change in unity inspector
 	// Use this for initialization
 	void Start () {
 		lens = LensColor.none;
-		hasRedLens = true;//initiate all lens as true for test
-		hasYellowLens = true;
-		hasBlueLens = true;
+		if( level == Level.level0 ){
+			hasRedLens = false;//initiate all lens as true for test
+			hasYellowLens = false;
+			hasBlueLens = false;
+		}
+		if (level == Level.level1){
+			hasRedLens = true; 
+			hasYellowLens = false; 
+			hasBlueLens = false;
+			lens = LensColor.red;
+		}
 	}
 	
 	// Update is called once per frame
