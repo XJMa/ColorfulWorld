@@ -1,4 +1,4 @@
-Initialize engine version: 4.5.4f1 (e036f44c54c9)
+Initialize engine version: 4.5.3f3 (fca41a4fabea)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.4411]
@@ -11,21 +11,33 @@ Platform assembly: C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_D
 Loading C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\course\CIS568\colorful_world\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.073 seconds
+- Completed reload, in  0.052 seconds
 desktop: 1680x1050 60Hz; virtual: 3600x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.193671 ms
+UnloadTime: 0.223123 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 586.
-Total: 0.468559 ms (FindLiveObjects: 0.016511 ms CreateObjectMapping: 0.007139 ms MarkObjects: 0.098620 ms  DeleteObjects: 0.002677 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1012.
+Total: 0.789411 ms (FindLiveObjects: 0.029452 ms CreateObjectMapping: 0.015618 ms MarkObjects: 0.112454 ms  DeleteObjects: 0.289614 ms)
 
-RedLensGui (UnityEngine.GUITexture)
+Red Pickup
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-RedLensGui (RedLensGui)
+door
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+door
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+door
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+door
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 

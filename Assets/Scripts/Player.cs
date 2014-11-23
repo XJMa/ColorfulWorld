@@ -59,6 +59,7 @@ public class Player : MonoBehaviour {
 			Debug.Log("door");
 			animation.Play ("WIN00");
 			win = true; 
+			
 		}
 
 		if(collider.tag == "redLens") {
