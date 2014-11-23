@@ -1,24 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets\Scripts\Player.cs" Line="69" Column="1" />
-      <File FileName="Assets\Scripts\GameManager.cs" Line="23" Column="25" />
-      <File FileName="Assets\Scripts\Lens.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ObstacleManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Obstacle.cs" Line="21" Column="1" />
-=======
-      <File FileName="Assets\Scripts\GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Lens.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Win.cs" Line="8" Column="21" />
-      <File FileName="Assets\Scripts\BlueLensGui.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\YellowLensGui.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player.cs" Line="88" Column="44" />
-      <File FileName="Assets\Scripts\Global.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameOver.cs" Line="27" Column="41" />
->>>>>>> 84b5d7d3103bb995f99ff06d7803f337997c5151
+      <File FileName="Assets\Scripts\Player.cs" Line="26" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
