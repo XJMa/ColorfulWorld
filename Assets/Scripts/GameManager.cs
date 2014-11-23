@@ -22,6 +22,12 @@ public class GameManager : MonoBehaviour {
 			hasBlueLens = false;
 			lens = LensColor.red;
 		}
+		if (level == Level.level2) {
+			hasRedLens = true; 
+			hasYellowLens = false; 
+			hasBlueLens = true;
+			lens = LensColor.none;
+		}
 	}
 	
 	// Update is called once per frame

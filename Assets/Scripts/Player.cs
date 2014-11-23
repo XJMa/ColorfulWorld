@@ -56,6 +56,7 @@ public class Player : MonoBehaviour {
 		Collider collider = collision.collider; 
 		
 		if (collider.tag == "Door") {
+			Debug.Log("door");
 			animation.Play ("WIN00");
 			win = true; 
 		}
@@ -70,8 +71,25 @@ public class Player : MonoBehaviour {
 			Debug.Log("Blue Pickup");
 		}
 
+		if(collider.tag == "yellowLens") {
+			animation.Play("SLIDE00");
+			Debug.Log("Yellow Pickup");
+		}
+
 		if(collider.tag == "ground") {
 			jumped = false;
 		}
+		if (collider.tag == "spikes") {  
+			livesCounter ();
+		}
 	}
+
+	void livesCounter(){
+		if (PlayerPrefs.GetInt ("currentLives") > 0)
+			PlayerPrefs.SetInt ("currentLives", PlayerPrefs.GetInt("currentLives") - 1); 
+
+		else 
+			Application.LoadLevel("GameOver");
+
+		}
 }

@@ -18,8 +18,9 @@ TagManager:
   - Door
   - blueLens
   - GuiBlueLens
-  - 
-  - 
+  - yellowLens
+  - GuiYellowLens
+  - spikes
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
