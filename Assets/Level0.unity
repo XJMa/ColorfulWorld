@@ -3239,7 +3239,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4663dab9862d7814184172a2c1dac88a, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4663dab9862d7814184172a2c1dac88a, type: 2}
       propertyPath: m_LocalScale.x
@@ -4642,7 +4642,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
       propertyPath: m_Name
@@ -4668,6 +4668,10 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
+    - target: {fileID: 2300000, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f2b9730dc9339e14a9e9829471c65220, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
   m_RootGameObject: {fileID: 822777882}
@@ -5898,7 +5902,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: d80ea7738c5289e4cb197d3126838da0, type: 2}
+  - {fileID: 2100000, guid: f2b9730dc9339e14a9e9829471c65220, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -10772,7 +10776,7 @@ GameObject:
   - 154: {fileID: 1463506656}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10812,6 +10816,7 @@ MonoBehaviour:
   m_LightmapIndex: -1
   m_LightmapSize: 1024
   m_DrawTreesAndFoliage: 1
+  m_CollectDetailPatches: 1
   m_MaterialTemplate: {fileID: 0}
 --- !u!4 &1463506658
 Transform:
