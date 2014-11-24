@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		jumpVelocity = new Vector3(0, 50, 0);
-		runVelocity1 = new Vector3(0, 0, 2f);
+		runVelocity1 = new Vector3(0, 0, -2f);
 		runVelocity2 = new Vector3(0, 0, 2f);
 		jumped = false;
 		inAir = false;
