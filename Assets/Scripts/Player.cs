@@ -9,8 +9,8 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		jumpVelocity = new Vector3(0, 50, 0);
-		runVelocity1 = new Vector3(0, 0, -2);
-		runVelocity2 = new Vector3(0, 0, 2);
+		runVelocity1 = new Vector3(0, 0, -2f);
+		runVelocity2 = new Vector3(0, 0, 2f);
 		jumped = false;
 		inAir = false;
 		animation.Play();
@@ -59,6 +59,7 @@ public class Player : MonoBehaviour {
 			Debug.Log("door");
 			animation.Play ("WIN00");
 			win = true; 
+			
 		}
 
 		if(collider.tag == "redLens") {
@@ -85,11 +86,13 @@ public class Player : MonoBehaviour {
 	}
 
 	void livesCounter(){
-		if (PlayerPrefs.GetInt ("currentLives") > 0)
-			PlayerPrefs.SetInt ("currentLives", PlayerPrefs.GetInt("currentLives") - 1); 
-
-		else 
-			Application.LoadLevel("GameOver");
-
+		if (PlayerPrefs.GetInt ("currentLives") > 0) {
+			PlayerPrefs.SetInt ("currentLives", PlayerPrefs.GetInt("currentLives") - 1);
+			Application.LoadLevel(Application.loadedLevelName);
 		}
+		
+		else {
+			Application.LoadLevel("GameOver");
+		}
+	}
 }

@@ -9,24 +9,28 @@ public class GameManager : MonoBehaviour {
 	public bool hasRedLens, hasYellowLens, hasBlueLens;
 	public Level level;  //Change in unity inspector
 	// Use this for initialization
+	public Level nextLevel;
 	void Start () {
 		lens = LensColor.none;
 		if( level == Level.level0 ){
 			hasRedLens = false;//initiate all lens as true for test
 			hasYellowLens = false;
 			hasBlueLens = false;
+			nextLevel = Level.level1;
 		}
 		if (level == Level.level1){
 			hasRedLens = true; 
 			hasYellowLens = false; 
 			hasBlueLens = false;
 			lens = LensColor.red;
+			nextLevel = Level.level2;
 		}
 		if (level == Level.level2) {
 			hasRedLens = true; 
 			hasYellowLens = false; 
 			hasBlueLens = true;
-			lens = LensColor.none;
+			lens = LensColor.blue;
+			nextLevel = Level.higherlevels;
 		}
 	}
 	
@@ -34,8 +38,8 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		//switch lenses
 		if(Input.GetKeyDown(KeyCode.Alpha1) && hasRedLens) lens = LensColor.red;
-		if(Input.GetKeyDown(KeyCode.Alpha2) && hasYellowLens) lens = LensColor.yellow;
-		if(Input.GetKeyDown(KeyCode.Alpha3) && hasBlueLens) lens = LensColor.blue;
+		if(Input.GetKeyDown(KeyCode.Alpha2) && hasBlueLens) lens = LensColor.blue;
+		if(Input.GetKeyDown(KeyCode.Alpha3) && hasYellowLens) lens = LensColor.yellow;
 		if(lens == LensColor.red){
 			light.light.color = Color.Lerp(Color.red, Color.white, 0.5f);
 		}

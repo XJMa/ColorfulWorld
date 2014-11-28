@@ -1,0 +1,81 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.4062]
+    Renderer: NVIDIA GeForce GTX 860M
+    Vendor:   NVIDIA
+    VRAM:     1972 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Paula\Documents\PENN\CIS 568 - Game Practicum\ColorfulWorld\colorfulWorld_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Paula\Documents\PENN\CIS 568 - Game Practicum\ColorfulWorld\colorfulWorld_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Paula\Documents\PENN\CIS 568 - Game Practicum\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Paula\Documents\PENN\CIS 568 - Game Practicum\ColorfulWorld\colorfulWorld_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.107 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.377190 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1013.
+Total: 98.600166 ms (FindLiveObjects: 0.065430 ms CreateObjectMapping: 0.023948 ms MarkObjects: 0.248038 ms  DeleteObjects: 0.757801 ms)
+
+Red Pickup
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+door
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+door
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.462708 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 104.
+Total: 8.585139 ms (FindLiveObjects: 0.021382 ms CreateObjectMapping: 0.023093 ms MarkObjects: 0.231360 ms  DeleteObjects: 6.767612 ms)
+
+UnloadTime: 0.564929 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 976.
+Total: 3.073116 ms (FindLiveObjects: 0.100498 ms CreateObjectMapping: 0.040627 ms MarkObjects: 0.466569 ms  DeleteObjects: 0.851029 ms)
+
+Blue Pickup
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.682094 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 974.
+Total: 2.881099 ms (FindLiveObjects: 0.111189 ms CreateObjectMapping: 0.045331 ms MarkObjects: 0.427225 ms  DeleteObjects: 0.408408 ms)
+
+Blue Pickup
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+door
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 2.753659 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 104.
+Total: 8.280650 ms (FindLiveObjects: 0.021382 ms CreateObjectMapping: 0.025659 ms MarkObjects: 0.222379 ms  DeleteObjects: 6.703037 ms)
+
+UnloadTime: 0.351103 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1049.
+Total: 1.835915 ms (FindLiveObjects: 0.063720 ms CreateObjectMapping: 0.024803 ms MarkObjects: 0.260013 ms  DeleteObjects: 0.592299 ms)
+
+Yellow Pickup
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
