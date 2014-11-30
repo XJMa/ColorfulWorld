@@ -5,7 +5,8 @@ public class Player : MonoBehaviour {
 
 	private bool isFaceRight, inAir, jumped;
 	private Vector3 runVelocity1, runVelocity2, jumpVelocity;
-	bool win = false;
+	public bool win = false;
+	public Font font;
 	// Use this for initialization
 	void Start () {
 		jumpVelocity = new Vector3(0, 50, 0);
@@ -46,10 +47,6 @@ public class Player : MonoBehaviour {
 		if(rigidbody.velocity.z < 0.1 && rigidbody.velocity.z > -0.1 &&rigidbody.velocity.y == 0){
 			animation.CrossFade("WAIT02");	
 		}
-		if (Input.GetKeyDown(KeyCode.Return) && win){
-			Application.LoadLevel("Win");
-		}
-
 	}
 
 	void OnCollisionEnter(Collision collision){
@@ -95,4 +92,6 @@ public class Player : MonoBehaviour {
 			Application.LoadLevel("GameOver");
 		}
 	}
+
+
 }
