@@ -1,9 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameManager.cs" Line="80" Column="121" />
-      <File FileName="Assets\Scripts\Player.cs" Line="51" Column="59" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="108" Column="58" />
+      <File FileName="Assets\Scripts\Player.cs" Line="50" Column="1" />
+      <File FileName="Assets\Scripts\Global.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Lens.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Obstacle.cs" Line="10" Column="76" />
+      <File FileName="Assets\Scripts\BlueLensGui.cs" Line="17" Column="51" />
+      <File FileName="Assets\Scripts\ObstacleManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
