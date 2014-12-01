@@ -9,7 +9,9 @@ public class Global : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		score = 0;
+		lives = 4;
+		level = 0;
 	}
 	
 	// Update is called once per frame

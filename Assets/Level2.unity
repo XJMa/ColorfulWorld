@@ -1175,7 +1175,7 @@ GameObject:
   - 4: {fileID: 32182887}
   m_Layer: 0
   m_Name: Tomb04_g
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2859,7 +2859,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: d80ea7738c5289e4cb197d3126838da0, type: 2}
+  - {fileID: 2100000, guid: 01726694ab3b56a458b9f8b00dff50fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -4328,6 +4328,7 @@ MonoBehaviour:
   hasYellowLens: 0
   hasBlueLens: 0
   level: 2
+  nextLevel: 0
 --- !u!4 &500395885
 Transform:
   m_ObjectHideFlags: 0
@@ -4621,6 +4622,10 @@ Prefab:
     - target: {fileID: 400006, guid: 3ac5a6bc9fb37a14bbd546da542e0236, type: 2}
       propertyPath: m_LocalScale.z
       value: 2.993958
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 3ac5a6bc9fb37a14bbd546da542e0236, type: 2}
+      propertyPath: m_TagString
+      value: ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3ac5a6bc9fb37a14bbd546da542e0236, type: 2}
@@ -5951,7 +5956,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
       propertyPath: m_Name
@@ -5977,6 +5982,10 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
+    - target: {fileID: 2300000, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01726694ab3b56a458b9f8b00dff50fb, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f848d5e4952c3b42be20d3205ccd5a4, type: 3}
   m_RootGameObject: {fileID: 2039995586}
@@ -7255,7 +7264,7 @@ GameObject:
   - 4: {fileID: 942396546}
   m_Layer: 0
   m_Name: Tomb04_g
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -13142,6 +13151,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2.993958
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 3ac5a6bc9fb37a14bbd546da542e0236, type: 2}
+      propertyPath: m_TagString
+      value: ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3ac5a6bc9fb37a14bbd546da542e0236, type: 2}
   m_RootGameObject: {fileID: 942396545}
@@ -15472,7 +15485,7 @@ GameObject:
   - 154: {fileID: 1997378206}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -15512,6 +15525,7 @@ MonoBehaviour:
   m_LightmapIndex: -1
   m_LightmapSize: 1024
   m_DrawTreesAndFoliage: 1
+  m_CollectDetailPatches: 1
   m_MaterialTemplate: {fileID: 0}
 --- !u!4 &1997378208
 Transform:
