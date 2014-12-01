@@ -4304,6 +4304,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 500395885}
   - 114: {fileID: 500395884}
+  - 131: {fileID: 500395886}
+  - 132: {fileID: 500395887}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4328,6 +4330,69 @@ MonoBehaviour:
   hasYellowLens: 0
   hasBlueLens: 0
   level: 2
+  redImage: {fileID: 2800000, guid: f54b7d82e3a807845a5aef240a22159a, type: 3}
+  blueImage: {fileID: 2800000, guid: 665410acda0480c4cbd1155607d64c11, type: 3}
+  yellowImage: {fileID: 2800000, guid: d1fcba0085ffe2c458c3ddb80badc35e, type: 3}
+  font: {fileID: 12800000, guid: 1781cd14cf425a84cb30f49ce8dd1a39, type: 3}
+  style:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
   nextLevel: 0
 --- !u!4 &500395885
 Transform:
@@ -4341,6 +4406,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!131 &500395886
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500395883}
+  m_Enabled: 1
+  m_Texture: {fileID: 0}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!132 &500395887
+GUIText:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500395883}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: 
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 0, y: 0}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: 1781cd14cf425a84cb30f49ce8dd1a39, type: 3}
+  m_Material: {fileID: 0}
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
 --- !u!1 &510689787
 GameObject:
   m_ObjectHideFlags: 0
@@ -10665,14 +10772,14 @@ GUITexture:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1262860136}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 4392b8fd7b0557f45819ffed41ffc6b7, type: 3}
+  m_Texture: {fileID: 2800000, guid: 1abc9946b29df3d4ea8a58f84c542b81, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
     x: 0
     y: 1
     width: 40
-    height: 40
+    height: 50
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 0
@@ -10684,7 +10791,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1262860136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .899999976, z: 0}
+  m_LocalPosition: {x: .00999999978, y: .870000005, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10954,14 +11061,14 @@ GUITexture:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294223847}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 8653fc67c16779c46bc1aeb0094f802b, type: 3}
+  m_Texture: {fileID: 2800000, guid: 9118002e442d05f48b3444078af92868, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
     x: 0
     y: 1
     width: 40
-    height: 40
+    height: 50
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 0
@@ -10973,7 +11080,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294223847}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0599999987, y: .899999976, z: 0}
+  m_LocalPosition: {x: .0599999987, y: .870000005, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12032,14 +12139,14 @@ GUITexture:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1556194043}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 6847eca3535638646a87140823bb7106, type: 3}
+  m_Texture: {fileID: 2800000, guid: c69ab3add66d45c4fb64736aa8ba5e18, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
     x: 0
     y: 1
     width: 40
-    height: 40
+    height: 50
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 0
@@ -12051,7 +12158,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1556194043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .119999997, y: .899999976, z: 0}
+  m_LocalPosition: {x: .109999999, y: .870000005, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15338,6 +15445,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d9a4a19088d30e468feeff75c94806f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: 0
+  font: {fileID: 0}
 --- !u!65 &1980486476
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15525,7 +15634,6 @@ MonoBehaviour:
   m_LightmapIndex: -1
   m_LightmapSize: 1024
   m_DrawTreesAndFoliage: 1
-  m_CollectDetailPatches: 1
   m_MaterialTemplate: {fileID: 0}
 --- !u!4 &1997378208
 Transform:
