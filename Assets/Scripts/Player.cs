@@ -10,8 +10,8 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		jumpVelocity = new Vector3(0, 50, 0);
-		runVelocity1 = new Vector3(0, 0, -2f);
-		runVelocity2 = new Vector3(0, 0, 2f);
+		runVelocity1 = new Vector3(0, 0, -1.5f);
+		runVelocity2 = new Vector3(0, 0, 1.5f);
 		jumped = false;
 		inAir = false;
 		animation.Play();
@@ -19,6 +19,9 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//Vector3 zeroVelocity = new Vector3(0, 0, 0);
+		//rigidbody.AddForce(zeroVelocity, ForceMode.VelocityChange);
+		//rigidbody.velocity = new Vector3(0, 0, rigidbody.velocity.z);
 		if(Mathf.Abs(rigidbody.velocity.y) < 0 && jumped) {inAir = true;}
 		else {inAir = false;}
 
@@ -31,20 +34,20 @@ public class Player : MonoBehaviour {
 			if(!isFaceRight) transform.Rotate(0,180,0);
 			isFaceRight = true;
 			animation.Play("RUN00_F");
-			if(Mathf.Abs(rigidbody.velocity.y) < 50.0f) {
-				rigidbody.AddForce(runVelocity1, ForceMode.Impulse);
+			if(Mathf.Abs(rigidbody.velocity.z) < 3.0f) {
+				rigidbody.AddForce(runVelocity1, ForceMode.VelocityChange);
 			}
 		}
 		if(Input.GetAxisRaw("Horizontal") > 0){
 			if(isFaceRight) transform.Rotate(0,180,0);
 			isFaceRight = false;
 			animation.Play("RUN00_F");
-			if(Mathf.Abs(rigidbody.velocity.y) < 50.0f) {
-				rigidbody.AddForce(runVelocity2, ForceMode.Impulse);
+			if(Mathf.Abs(rigidbody.velocity.z) < 3.0f) {
+				rigidbody.AddForce(runVelocity2, ForceMode.VelocityChange);
 			}
 		}
 
-		if(rigidbody.velocity.z < 0.1 && rigidbody.velocity.z > -0.1 &&rigidbody.velocity.y == 0){
+		if(Mathf.Abs(rigidbody.velocity.z) < 0.1 && Mathf.Abs(rigidbody.velocity.y) < 1.0){
 			animation.CrossFade("WAIT02");	
 		}
 	}
