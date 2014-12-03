@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour {
 			hasYellowLens = false;
 			hasBlueLens = false;
 			nextLevel = Level.level1;
+			PlayerPrefs.SetInt ("currentLevel", 0);
 		}
 		if (level == Level.level1){
 			hasRedLens = true; 
@@ -34,6 +35,7 @@ public class GameManager : MonoBehaviour {
 			hasBlueLens = false;
 			lens = LensColor.red;
 			nextLevel = Level.level2;
+			PlayerPrefs.SetInt ("currentLevel", 1);
 		}
 		if (level == Level.level2) {
 			hasRedLens = true; 
@@ -41,6 +43,7 @@ public class GameManager : MonoBehaviour {
 			hasBlueLens = true;
 			lens = LensColor.blue;
 			nextLevel = Level.higherlevels;
+			PlayerPrefs.SetInt ("currentLevel", 2);
 		}
 
 		gameObject.transform.position = new Vector3 (0.54f, 0.89f, 0.0f); 

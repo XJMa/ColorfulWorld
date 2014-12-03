@@ -22,28 +22,24 @@ public class Win : MonoBehaviour {
 		style.fontSize = 30;
 		
 		GUILayout.BeginArea(new Rect(0.9f * Screen.width / 2, 3.0f * Screen.height / 4.0f , Screen.width /2, 200));
-		
-		/*
+
 		if (GUILayout.Button("Next Level", style))
 		{
-			GameObject gm = GameObject.Find("GameManager"); 
-			GameManager g = gm.GetComponent<GameManager>();
-			switch(g.nextLevel) {
-			case Level.level0:
+			switch(PlayerPrefs.GetInt("currentLevel")){
+			case 0:
 				Application.LoadLevel("Level1");
 				break;
-			case Level.level1:
+			case 1:
 				Application.LoadLevel("Level2");
 				break;
-			case Level.level2:
+			case 2:
 				Application.LoadLevel("Main Menu");
 				break;
 			default:
 				break;
 			}
 		}
-		*/
-
+		/*
 		if (GUILayout.Button("Main Menu", style))
 		{
 			Application.LoadLevel("Main Menu");
@@ -63,7 +59,7 @@ public class Win : MonoBehaviour {
 		{
 			Application.LoadLevel("Level2");
 		}
-		
+		*/
 		GUILayout.EndArea ();
 	}
 }
