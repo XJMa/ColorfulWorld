@@ -3,11 +3,14 @@ using System.Collections;
 
 public class RedLensGui : MonoBehaviour {
 
-	public Texture redLensImage;
-
+	Vector2 border = new Vector2(22.42f, 18.77f); //from image
 	// Use this for initialization
 	void Start () {
 		guiTexture.enabled = false;
+		Vector2 ratio = new Vector2((float)guiTexture.pixelInset.width / Screen.width, 
+		                            (float)guiTexture.pixelInset.height / Screen.height);
+		Vector2 pos = new Vector2 (Screen.width * 0.07f, Screen.height * 0.83f);
+		gameObject.transform.position = Camera.main.ScreenToViewportPoint(pos);
 
 				
 	}

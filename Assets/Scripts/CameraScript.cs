@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Camera : MonoBehaviour {
+public class CameraScript : MonoBehaviour {
 
 	// Use this for initialization
 	private Vector3 playerPos;

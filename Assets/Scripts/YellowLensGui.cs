@@ -8,6 +8,8 @@ public class YellowLensGui : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		guiTexture.enabled = false;
+		Vector2 pos = new Vector2 (Screen.width * 0.21f, Screen.height * 0.83f);
+		gameObject.transform.position = Camera.main.ScreenToViewportPoint(pos);
 		
 	}
 	
