@@ -63,15 +63,15 @@ public class GameManager : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Alpha2) && hasBlueLens) lens = LensColor.blue;
 		if(Input.GetKeyDown(KeyCode.Alpha3) && hasYellowLens) lens = LensColor.yellow;
 		if(lens == LensColor.red){
-			light.light.color = Color.Lerp(Color.red, Color.white, 0.5f);
+			light.light.color = Color.Lerp(Color.red, Color.white, 0.3f);
 			guiTexture.texture = redImage;
 		}
 		if(lens == LensColor.yellow){
-			light.light.color = Color.Lerp(Color.yellow, Color.white, 0.5f);
+			light.light.color = Color.Lerp(Color.yellow, Color.white, 0.3f);
 			guiTexture.texture = yellowImage;
 		}
 		if(lens == LensColor.blue){
-			light.light.color = Color.Lerp(Color.blue, Color.white, 0.5f);
+			light.light.color = Color.Lerp(Color.blue, Color.white, 0.3f);
 			guiTexture.texture = blueImage;
 		}
 
