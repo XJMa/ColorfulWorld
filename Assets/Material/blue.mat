@@ -20,9 +20,16 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats: {}
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .284656167, g: .526821017, b: .860294104, a: 1}
+        second: {r: .215686262, g: .783712804, b: 1, a: 1}

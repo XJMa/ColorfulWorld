@@ -23,6 +23,7 @@ public class MainMenu : MonoBehaviour {
 		if (GUILayout.Button("New Game", style))
 		{
 			PlayerPrefs.SetInt ("currentLives", 4);
+			PlayerPrefs.SetInt ("currentLevel", 0);
 			Application.LoadLevel("Level0");
 		}
 		if (GUILayout.Button("Select Level", style))
