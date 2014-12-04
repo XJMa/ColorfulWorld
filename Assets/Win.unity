@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6094a6959b1aae34b81e41eefd5dd50d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  font: {fileID: 12800000, guid: 47b91bd396d1b5745b89067a4f914b6e, type: 3}
+  font: {fileID: 12800000, guid: 1781cd14cf425a84cb30f49ce8dd1a39, type: 3}
   style:
     m_Name: 
     m_Normal:
@@ -162,7 +162,7 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
-  level: 0
+  nextLevel: 0
 --- !u!132 &90384306
 GUIText:
   m_ObjectHideFlags: 0
@@ -171,13 +171,13 @@ GUIText:
   m_GameObject: {fileID: 90384304}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: "             Congrats!\r\nYou made it to the next\r\n               level!"
+  m_Text: 
   m_Anchor: 0
   m_Alignment: 0
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
-  m_Font: {fileID: 12800000, guid: 47b91bd396d1b5745b89067a4f914b6e, type: 3}
+  m_Font: {fileID: 12800000, guid: 1781cd14cf425a84cb30f49ce8dd1a39, type: 3}
   m_Material: {fileID: 0}
   m_FontSize: 50
   m_FontStyle: 0

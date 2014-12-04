@@ -10,8 +10,8 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		jumpVelocity = new Vector3(0, 50, 0);
-		runVelocity1 = new Vector3(0, 0, -1.5f);
-		runVelocity2 = new Vector3(0, 0, 1.5f);
+		runVelocity1 = new Vector3(0, 0, -0.5f);
+		runVelocity2 = new Vector3(0, 0, 0.5f);
 		jumped = false;
 		inAir = false;
 		animation.Play();
@@ -21,10 +21,10 @@ public class Player : MonoBehaviour {
 	void Update () {
 		//Vector3 zeroVelocity = new Vector3(0, 0, 0);
 		//rigidbody.AddForce(zeroVelocity, ForceMode.VelocityChange);
-		//rigidbody.velocity = new Vector3(0, 0, rigidbody.velocity.z);
+		//rigidbody.velocity = new Vector3(0, Mathf.Clamp(rigidbody.velocity.y, -2.0f, 2.0f), rigidbody.velocity.z);
 		if(Mathf.Abs(rigidbody.velocity.y) < 0 && jumped) {inAir = true;}
 		else {inAir = false;}
-
+		//rigidbody.velocity = Vector3.ClampMagnitude(rigidbody.velocity, 2.0f);
 		if(Input.GetButtonDown("Jump") && !inAir && !jumped){				
 			rigidbody.AddForce(jumpVelocity, ForceMode.Impulse);
 			animation.Play("JUMP01");

@@ -1,16 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameManager.cs" Line="53" Column="71" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="7" Column="2" />
-      <File FileName="Assets\Scripts\Win.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\YellowLensGui.cs" Line="11" Column="49" />
-      <File FileName="Assets\Scripts\RedLensGui.cs" Line="9" Column="30" />
-      <File FileName="Assets\Scripts\BlueLensGui.cs" Line="13" Column="74" />
-      <File FileName="Assets\Scripts\CameraScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Global.cs" Line="43" Column="23" />
-      <File FileName="Assets\Scripts\Player.cs" Line="89" Column="42" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="71" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

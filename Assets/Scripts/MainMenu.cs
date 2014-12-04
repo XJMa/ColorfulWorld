@@ -7,7 +7,9 @@ public class MainMenu : MonoBehaviour {
 	public GUIStyle style;
 	// Use this for initialization
 	void Start () {
-	
+		Vector2 pos = new Vector2 (Screen.width * 0.3f, Screen.height * 0.83f);
+		gameObject.transform.position = Camera.main.ScreenToViewportPoint(pos);
+
 	}
 	
 	// Update is called once per frame
@@ -18,7 +20,7 @@ public class MainMenu : MonoBehaviour {
 		style.font = font;
 		style.fontSize = 30;
 		
-		GUILayout.BeginArea(new Rect(0.9f * Screen.width / 2, Screen.height / 2 , Screen.width /2, 200));
+		GUILayout.BeginArea(new Rect(0.4f * Screen.width, Screen.height / 2 , Screen.width /2, 200));
 
 		if (GUILayout.Button("New Game", style))
 		{

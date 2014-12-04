@@ -8,7 +8,9 @@ public class Win : MonoBehaviour {
 	public Level nextLevel;
 	// Use this for initialization
 	void Start () {
-	
+		Vector2 pos = new Vector2 (Screen.width * 0.1f, Screen.height * 0.83f);
+		gameObject.transform.position = Camera.main.ScreenToViewportPoint(pos);
+		guiText.text = "\t\tCongrats! \nYou made it to the next level!";
 	}
 	
 	// Update is called once per frame
@@ -21,7 +23,7 @@ public class Win : MonoBehaviour {
 		style.font = font;
 		style.fontSize = 30;
 		
-		GUILayout.BeginArea(new Rect(0.9f * Screen.width / 2, 3.0f * Screen.height / 4.0f , Screen.width /2, 200));
+		GUILayout.BeginArea(new Rect(0.4f * Screen.width, 3.0f * Screen.height / 4.0f , Screen.width /2, 200));
 
 		if (GUILayout.Button("Next Level", style))
 		{

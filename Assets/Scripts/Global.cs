@@ -51,21 +51,6 @@ public class Global : MonoBehaviour {
 		}
 		
 		GUILayout.EndArea ();
-	/*	if (lives == 4) {
-			GUI.backgroundColor = Color.green; 
-		}
-		if (lives == 3) {
-			GUI.backgroundColor = new Color(0.6f, 0.6f, 0.0f); 
-		}
-		if (lives == 2) {
-			GUI.backgroundColor = new Color(1.0f, 0.4f, 0.0f); 
-		}
-		if (lives == 1) {
-			GUI.backgroundColor = Color.red; 
-		}
-		GUI.HorizontalScrollbar (new Rect (Screen.width * (0.2f), 7, 90, 200), 0, PlayerPrefs.GetInt ("currentLives") * 25, 0, 100); 
-		
-*/
 			
 	}
 

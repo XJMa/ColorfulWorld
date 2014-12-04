@@ -68,15 +68,15 @@ public class GameManager : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Alpha2) && hasBlueLens) lens = LensColor.blue;
 		if(Input.GetKeyDown(KeyCode.Alpha3) && hasYellowLens) lens = LensColor.yellow;
 		if(lens == LensColor.red){
-			light.light.color = Color.Lerp(Color.red, Color.white, 0.3f);
+			light.light.color = Color.Lerp(Color.red, Color.white, 0.2f);
 			guiTexture.texture = redImage;
 		}
 		if(lens == LensColor.yellow){
-			light.light.color = Color.Lerp(Color.yellow, Color.white, 0.3f);
+			light.light.color = Color.Lerp(Color.yellow, Color.white, 0.2f);
 			guiTexture.texture = yellowImage;
 		}
 		if(lens == LensColor.blue){
-			light.light.color = Color.Lerp(Color.blue, Color.white, 0.3f);
+			light.light.color = Color.Lerp(Color.blue, Color.white, 0.2f);
 			guiTexture.texture = blueImage;
 		}
 
@@ -144,7 +144,8 @@ public class GameManager : MonoBehaviour {
 	IEnumerator ShowMessage (string message, float delay) {
 		guiText.text = message;
 		guiText.font = font;
-		guiText.pixelOffset = new Vector2 (-120, -300);
+		guiText.fontSize = 35; 
+		guiText.pixelOffset = new Vector2 (1.0f*Screen.width/16.0f, 50);
 		guiText.enabled = true;
 		yield return new WaitForSeconds(delay);
 		guiText.enabled = false;
@@ -153,8 +154,8 @@ public class GameManager : MonoBehaviour {
 	IEnumerator WinMessage (string message, float delay) {
 		guiText.text = message;
 		guiText.font = font;
-		guiText.fontSize = 30; 
-		guiText.pixelOffset = new Vector2 (-120, -300);
+		guiText.fontSize = 35; 
+		guiText.pixelOffset = new Vector2 (1.0f*Screen.width/16.0f, 50);
 		guiText.enabled = true;
 		yield return new WaitForSeconds(delay);
 		Application.LoadLevel("Win");
