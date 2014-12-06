@@ -11681,8 +11681,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1f7413055148842897be0d63b7acc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
-  myMat: {fileID: 2100000, guid: f2b9730dc9339e14a9e9829471c65220, type: 2}
+  color: 3
+  myMat: {fileID: 2100000, guid: 81534ad881faa704f96b63a6c6a7c8e5, type: 2}
 --- !u!65 &995872082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15376,8 +15376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1f7413055148842897be0d63b7acc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
-  myMat: {fileID: 2100000, guid: f2b9730dc9339e14a9e9829471c65220, type: 2}
+  color: 3
+  myMat: {fileID: 2100000, guid: 81534ad881faa704f96b63a6c6a7c8e5, type: 2}
 --- !u!65 &1330821335
 BoxCollider:
   m_ObjectHideFlags: 0
