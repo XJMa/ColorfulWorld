@@ -1,8 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameManager.cs" Line="71" Column="1" />
+      <File FileName="Assets\Scripts\Global.cs" Line="54" Column="1" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="157" Column="24" />
+      <File FileName="Assets\Scripts\CameraScript.cs" Line="6" Column="32" />
+      <File FileName="Assets\Scripts\RedLensGui.cs" Line="12" Column="3" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="23" Column="96" />
+      <File FileName="Assets\Scripts\Win.cs" Line="13" Column="29" />
+      <File FileName="Assets\Scripts\Player.cs" Line="75" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
