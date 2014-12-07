@@ -40,11 +40,19 @@ public class GameManager : MonoBehaviour {
 		}
 		if (level == Level.level2) {
 			hasRedLens = true; 
-			hasYellowLens = true; 
+			hasYellowLens = false; 
 			hasBlueLens = true;
 			lens = LensColor.blue;
 			nextLevel = Level.higherlevels;
 			PlayerPrefs.SetInt ("currentLevel", 2);
+		}
+		if (level == Level.higherlevels){
+			hasRedLens = true; 
+			hasYellowLens = true; 
+			hasBlueLens = true;
+			lens = LensColor.blue;
+			nextLevel = Level.higherlevels;
+			PlayerPrefs.SetInt ("currentLevel", 3);
 		}
 
 		gameObject.transform.position = new Vector3 (0.0f, 0.0f, 0.0f); 
@@ -54,6 +62,7 @@ public class GameManager : MonoBehaviour {
 
 
 		style.font = font;
+		style.fontSize = 30;
 		style.normal.textColor = Color.white;
 
 		stopRoutine = false;
@@ -120,11 +129,11 @@ public class GameManager : MonoBehaviour {
 		if(level == Level.level0){
 			if(hasRedLens){
 
-				GUILayout.BeginArea(new Rect(Screen.width * 0.01f, Screen.width * 0.05f, 1000, 1000));
+				GUILayout.BeginArea(new Rect(Screen.width * 0.06f, Screen.height * 0.15f, 1000, 1000));
 				GUILayout.Label("Shows you what lenses you have", style);
 				GUILayout.EndArea ();
 
-				GUILayout.BeginArea(new Rect(Screen.width * 0.5f, Screen.width * 0.05f, 1000, 1000));
+				GUILayout.BeginArea(new Rect(Screen.width * 0.06f, Screen.height * 0.3f, 1000, 1000));
 				GUILayout.Label("The frame tells you which lens is activated", style);
 				GUILayout.EndArea ();
 			}

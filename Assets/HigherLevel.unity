@@ -3335,7 +3335,7 @@ MonoBehaviour:
   hasRedLens: 0
   hasYellowLens: 1
   hasBlueLens: 0
-  level: 2
+  level: 3
   redImage: {fileID: 2800000, guid: 31a93a5be92548e43ae870071a0ad82b, type: 3}
   blueImage: {fileID: 2800000, guid: 4ae45c9f6159d8d4f87e10fee014b654, type: 3}
   yellowImage: {fileID: 2800000, guid: c5f80f0dbf1a0f64fb3530d09c8fdc6f, type: 3}
@@ -4552,6 +4552,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   livesImage: {fileID: 2800000, guid: 575158acf119f824caaaf399e85e0930, type: 3}
+  style:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  font: {fileID: 12800000, guid: 1781cd14cf425a84cb30f49ce8dd1a39, type: 3}
 --- !u!4 &403818130
 Transform:
   m_ObjectHideFlags: 0
@@ -6189,7 +6249,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 638303194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.63384819, y: 3.84691, z: -9.71445274}
+  m_LocalPosition: {x: 9.63384819, y: 3.84691, z: -10.4933395}
   m_LocalScale: {x: 1, y: .505379975, z: 6.72658682}
   m_Children: []
   m_Father: {fileID: 1338359780}
@@ -14350,6 +14410,7 @@ MonoBehaviour:
   m_LightmapIndex: -1
   m_LightmapSize: 1024
   m_DrawTreesAndFoliage: 1
+  m_CollectDetailPatches: 1
   m_MaterialTemplate: {fileID: 0}
 --- !u!4 &1236836475
 Transform:
@@ -16206,7 +16267,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1429036883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.459070921, y: 8.03726768, z: -18.3806152}
+  m_LocalPosition: {x: -.459070921, y: 8.11672497, z: -18.3806152}
   m_LocalScale: {x: 1, y: .124848463, z: 13.2566614}
   m_Children: []
   m_Father: {fileID: 0}
