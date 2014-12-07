@@ -1,0 +1,1 @@
+Assets/UnityChan/Prefabs/for Locomotion/unitychan.prefab
