@@ -22,6 +22,9 @@ public class Player : MonoBehaviour {
 		AudioSource[] sources = GetComponents<AudioSource>();
 		lens_source = sources[0];
 		spike_source = sources[1];
+		if(PlayerPrefs.GetInt("spiked") == 1){
+			spike_source.Play ();
+		}
 	}
 	
 	// Update is called once per frame
@@ -98,11 +101,7 @@ public class Player : MonoBehaviour {
 	void livesCounter(){
 		if (PlayerPrefs.GetInt ("currentLives") > 0) {
 			PlayerPrefs.SetInt ("currentLives", PlayerPrefs.GetInt("currentLives") - 1);
-			spike_source.Play();
-			int i = 1000000000;
-			while(i > 0){
-				i--;
-			}
+			PlayerPrefs.SetInt ("spiked", 1);
 			Application.LoadLevel(Application.loadedLevelName);
 		}
 		
