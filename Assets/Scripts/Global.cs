@@ -7,6 +7,9 @@ public class Global : MonoBehaviour {
 	int lives; 
 	int level;
 	public Texture2D livesImage; 
+	public GUIStyle style;
+
+	public Font font;
 	// Use this for initialization
 	void Start () {
 		score = 0;
@@ -14,7 +17,7 @@ public class Global : MonoBehaviour {
 		level = 0;
 
 
-		Vector2 pos = new Vector2 (Screen.width * 0.5f, Screen.height * 0.85f);
+		Vector2 pos = new Vector2 (Screen.width * 0.5f, Screen.height * 0.88f);
 		gameObject.transform.position = Camera.main.ScreenToViewportPoint(pos);
 		gameObject.transform.localScale = new Vector3 (0.0f, 0.0f, 1.0f);
 		guiTexture.pixelInset = new Rect(0, 0, 50, 40);
@@ -42,10 +45,11 @@ public class Global : MonoBehaviour {
 	
 	}
 	void OnGUI(){
+		style.font = font;
+		style.fontSize = 30;
+		GUILayout.BeginArea(new Rect(10, Screen.height - 70 , 50, 90));
 		
-		GUILayout.BeginArea(new Rect(20, Screen.height - 50 , 50, 90));
-		
-		if (GUILayout.Button("Quit"))
+		if (GUILayout.Button("Quit", style))
 		{
 			Application.LoadLevel("Main Menu");
 		}

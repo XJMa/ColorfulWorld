@@ -23,7 +23,7 @@ public class Win : MonoBehaviour {
 		style.font = font;
 		style.fontSize = 30;
 		
-		GUILayout.BeginArea(new Rect(0.4f * Screen.width, 3.0f * Screen.height / 4.0f , Screen.width /2, 200));
+		GUILayout.BeginArea(new Rect(0.3f * Screen.width, 3.0f * Screen.height / 4.0f , Screen.width /2, 200));
 
 		if (GUILayout.Button("Next Level", style))
 		{
@@ -35,6 +35,9 @@ public class Win : MonoBehaviour {
 				Application.LoadLevel("Level2");
 				break;
 			case 2:
+				Application.LoadLevel("HigherLevel");
+				break;
+			case 3:
 				Application.LoadLevel("Main Menu");
 				break;
 			default:

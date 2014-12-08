@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05486e41f35e3844a82eecbe3e106084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  font: {fileID: 12800000, guid: 47b91bd396d1b5745b89067a4f914b6e, type: 3}
+  font: {fileID: 12800000, guid: 1781cd14cf425a84cb30f49ce8dd1a39, type: 3}
   style:
     m_Name: 
     m_Normal:
@@ -394,7 +394,7 @@ GUIText:
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
-  m_Font: {fileID: 12800000, guid: 47b91bd396d1b5745b89067a4f914b6e, type: 3}
+  m_Font: {fileID: 12800000, guid: 1781cd14cf425a84cb30f49ce8dd1a39, type: 3}
   m_Material: {fileID: 0}
   m_FontSize: 50
   m_FontStyle: 0

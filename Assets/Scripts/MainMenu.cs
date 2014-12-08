@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour {
 		style.font = font;
 		style.fontSize = 30;
 		
-		GUILayout.BeginArea(new Rect(0.4f * Screen.width, Screen.height / 2 , Screen.width /2, 200));
+		GUILayout.BeginArea(new Rect(0.3f * Screen.width, Screen.height / 2 , Screen.width /2, 200));
 
 		if (GUILayout.Button("New Game", style))
 		{
@@ -32,11 +32,11 @@ public class MainMenu : MonoBehaviour {
 		{
 			//Application.LoadLevel ("select_level_scene");
 		}
-		if (GUILayout.Button("High Score", style))
+	/*	if (GUILayout.Button("High Score", style))
 		{
 			//Application.LoadLevel ("high_score_scene");
 		}
-
+*/
 		if (GUILayout.Button("Exit", style))
 		{
 			Application.Quit();
