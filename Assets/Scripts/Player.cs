@@ -7,10 +7,10 @@ public class Player : MonoBehaviour {
 	private Vector3 runVelocity1, runVelocity2, jumpVelocity;
 	public bool win = false;
 	public Font font;
-	public AudioClip lens_grab;
-	public AudioClip spike_death;
 	AudioSource lens_source;
 	AudioSource spike_source;
+	AudioSource jump_source;
+	AudioSource win_source;
 	// Use this for initialization
 	void Start () {
 		jumpVelocity = new Vector3(0, 50, 0);
@@ -22,8 +22,10 @@ public class Player : MonoBehaviour {
 		AudioSource[] sources = GetComponents<AudioSource>();
 		lens_source = sources[0];
 		spike_source = sources[1];
+		jump_source = sources[2];
+		win_source = sources[3];
 		if(PlayerPrefs.GetInt("spiked") == 1){
-			spike_source.Play ();
+			spike_source.Play();
 		}
 	}
 	
@@ -39,6 +41,7 @@ public class Player : MonoBehaviour {
 			rigidbody.AddForce(jumpVelocity, ForceMode.Impulse);
 			animation.Play("JUMP01");
 			jumped = true;
+			jump_source.Play();
 		}
 		if(Input.GetAxisRaw("Horizontal") < 0){
 			if(!isFaceRight) transform.Rotate(0,180,0);
@@ -66,9 +69,11 @@ public class Player : MonoBehaviour {
 		Collider collider = collision.collider; 
 		
 		if (collider.tag == "Door") {
+			PlayerPrefs.SetInt("spiked", 0);
 			Debug.Log("door");
 			animation.Play ("WIN00");
-			win = true; 
+			win = true;
+			win_source.Play();
 		}
 
 		if(collider.tag == "redLens") {
@@ -93,7 +98,7 @@ public class Player : MonoBehaviour {
 			jumped = false;
 		}
 		if (collider.tag == "spikes") {
-			//spike_source.Play();
+			PlayerPrefs.SetInt("spiked", 1);
 			livesCounter();
 		}
 	}
@@ -101,7 +106,6 @@ public class Player : MonoBehaviour {
 	void livesCounter(){
 		if (PlayerPrefs.GetInt ("currentLives") > 0) {
 			PlayerPrefs.SetInt ("currentLives", PlayerPrefs.GetInt("currentLives") - 1);
-			PlayerPrefs.SetInt ("spiked", 1);
 			Application.LoadLevel(Application.loadedLevelName);
 		}
 		
