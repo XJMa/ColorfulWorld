@@ -6,7 +6,6 @@ public class MusicPlayer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		DontDestroyOnLoad(this);
 		AudioSource[] sources = GetComponents<AudioSource>();
 		theme = sources[0];
 		theme.Play();
@@ -14,6 +13,6 @@ public class MusicPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 }

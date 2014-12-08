@@ -1,25 +1,6 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ObstacleManager.cs">
-    <Files>
-      <File FileName="Assets\Scripts\ObstacleManager.cs" Line="19" Column="1" />
-      <File FileName="Assets\Scripts\Global.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameManager.cs" Line="157" Column="24" />
-      <File FileName="Assets\Scripts\CameraScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RedLensGui.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Win.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MusicPlayer.cs">
-    <Files>
-      <File FileName="Assets\Scripts\MusicPlayer.cs" Line="12" Column="16" />
-      <File FileName="Assets\Scripts\Player.cs" Line="26" Column="25" />
->>>>>>> bd05a491cc9006d0032f65607fef607a042c569e
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
